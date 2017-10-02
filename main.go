@@ -38,7 +38,7 @@ func (Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	h := `
-  <html><head><title>Hello</title></head><body>
+  <html><head><title>簡易電卓/title></head><body>
   <form action="/" method="post">
   左項目:<input type="text" name="left"><br>
   右項目:<input type="text" name="right"><br>
